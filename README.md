@@ -12,4 +12,4 @@ Se reemplaza la interacción de click a una pelicula (modal) para que ahora, ant
 
  “/paginacion”.
 
-Esta página es una réplica de la Home, pero con la diferencia de que en lugar de funcionar con un *scroll*, hace un “paginador”
+Esta página es una réplica de la Home, pero con la diferencia de que en lugar de funcionar con un *scroll*, hace un paginador
