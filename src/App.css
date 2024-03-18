@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  overflow-x: hidden;
+  /* lo que sobre en el eje x, lo oculta y no da scroll */
+
+  background-size: cover;
+}
+
+.divImage {
+  margin: 10px;
+}
+
+.custom-navbar {
+  background-image: url("./assets/hackflix.png");
+  background-size: 17%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black !important;
+  height: 140px;
+  width: 100vw !important;
+  padding: 0 4rem !important;
+}
+
+.aNavbar {
+  color: white;
+  font-size: 26px;
+  margin-left: 2rem;
+}
+
+.itemsNavbar {
+  height: 38px;
+}
+
+.btnNavbar {
+  color: white;
+  background-color: red;
+  width: 120px;
+  margin-right: 2rem;
+}
+
+.container {
+  background-image: url("./assets/b.jpg");
+  max-width: none;
+  width: 100vw;
+  padding: 3rem !important;
+}
+
+/*MOVIE DETAILS*/
+
+.containerDetails {
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  opacity: 0.8;
+}
+
+.containerDetails h1 {
+  overflow-y: hidden;
+  color: white;
+  margin-top: 10rem;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 6rem;
+}
+
+.containerDetails p {
+  color: white;
+  text-align: center;
+}
+
+/*MOBILE STYLE */
+
+@media screen and (max-width: 700px) {
+  .custom-navbar {
+    background-image: url("./assets/hackflix.png");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black !important;
+    height: 140px;
+    width: 100vw !important;
+    padding: 0 4rem !important;
+  }
+
+  .aNavbar {
+    color: white;
+    font-size: 26px;
+    margin-left: 2rem;
+  }
+
+  .custom-navbar {
+    background-image: url("./assets/hackflix.png");
+    background-size: 13rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black !important;
+    height: 140px;
+    width: 100vw !important;
+    padding: 0 0rem !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .aNavbar {
+    display: none;
+  }
+  .custom-navbar {
+    display: flex;
+    justify-content: flex-end;
+
+    
+
+  }
+}
